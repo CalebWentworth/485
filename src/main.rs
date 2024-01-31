@@ -24,7 +24,7 @@ fn smallest(arr: &mut Vec<i32>, m: usize) -> Vec<i32> {//O(mn) algo
     result
 }
 
-//insertion sort5
+//insertion sort On^2 algo :(
 fn isort(arr: &mut Vec<i32>){
     //temporary swap variable
     for i in 1..arr.len() {// that nice
